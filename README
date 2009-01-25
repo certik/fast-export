@@ -1,0 +1,8 @@
+Usage:
+
+$ mkdir myrepo; cd myrepo
+$ git init
+$ ~/repos/fast-export/hg-fast-export.sh -r ../hg-repo
+
+This will create a git repository in myrepo. You can execute the last command
+again to convert latest changes made to the hg-repo.
